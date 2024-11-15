@@ -1,0 +1,27 @@
+{
+  "name": "api-rest-con-expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "express": "^4.21.1",
+    "faker": "^6.6.6",
+    "flatted": "^3.3.1",
+    "mysql2": "^3.11.4"
+  }
+}
